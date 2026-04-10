@@ -18,9 +18,8 @@ const reviews = require("./ROUTES/review.js");
 //const { error } = require("console");
 
 
-
-
-const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
+//const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
+const MONGO_URL = "mongodb+srv://agarwalanshika834_db_user:ipQZtlbYe7qehuLj@cluster0.jro2ag7.mongodb.net/?appName=Cluster0";
 
 main().then(() => {
     console.log("connected to DB");
